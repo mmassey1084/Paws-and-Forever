@@ -40,7 +40,8 @@ git clone https://github.com/<your-username>/paws-and-forever.git
 cd paws-and-forever
 start index.html   # On Windows
 # or
-open index.html    # On macOS
+open index.html    # On macOS```
 
-#License
+---
+##License
 This project was created for educational purposes and design practice.
