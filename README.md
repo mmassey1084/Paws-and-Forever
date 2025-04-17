@@ -30,6 +30,12 @@ This repository contains a complete front-end website project for **Paws and For
 
 ---
 
+##License
+
+This project was created for educational purposes and design practice.
+
+---
+
 ## Usage Instructions
 
 To run this project locally:
