@@ -42,7 +42,7 @@ To run this project locally:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/mmassey1084/paws-and-forever.git
+git clone https://github.com/mmassey1084/Paws-and-Forever.git
 cd paws-and-forever
 start index.html   # On Windows
 # or
