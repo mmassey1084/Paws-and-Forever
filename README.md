@@ -30,7 +30,7 @@ This repository contains a complete front-end website project for **Paws and For
 
 ---
 
-##License
+## License
 
 This project was created for educational purposes and design practice.
 
@@ -42,14 +42,9 @@ To run this project locally:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/paws-and-forever.git
+git clone https://github.com/mmassey1084/paws-and-forever.git
 cd paws-and-forever
 start index.html   # On Windows
 # or
 open index.html    # On macOS```
 
----
-
-##License
-
-This project was created for educational purposes and design practice.
