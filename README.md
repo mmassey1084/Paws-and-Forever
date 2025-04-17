@@ -43,5 +43,7 @@ start index.html   # On Windows
 open index.html    # On macOS```
 
 ---
+
 ##License
+
 This project was created for educational purposes and design practice.
