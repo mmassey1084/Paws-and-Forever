@@ -1,0 +1,302 @@
+/*header and nav styles*/
+#companyLogo {
+    width:180px;
+}
+#headerNav > li, #footerNav > li {
+    list-style-type: none;
+}
+#headerNav, #footerNav {
+    display:flex;
+    justify-content: space-around;
+}
+h1 {
+    font-size: 3em;
+    text-shadow: 8px 8px 8px #C19A6B;
+    margin:0;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid #C19A6B;
+    padding-bottom: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.3em;
+}
+h3, h2 {
+    text-shadow: 8px 8px 8px #C19A6B;  
+}
+header {
+    background-color:#C19A6B;
+    padding:57px;
+    position: relative;
+    background: linear-gradient(to right, #C19A6B, #F5DEB3);
+    
+}
+header > img {
+    position: absolute;
+    left:0;
+    top:0;
+}
+/*banner section styles*/
+#banner1 {
+    background-image: url("../images/file\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom:300px;
+}
+
+#bannerParagraph {
+    font-size: 1.8em;
+   
+} 
+#flex-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:300px;
+    padding-top: 80px;
+}
+/*body styles*/
+body {
+    height:100%;
+    background-color: beige;
+    margin:0;
+}
+/*button styles*/
+#banner-button {
+    border-radius: 100px;
+    padding:10px;
+    background-color: #C19A6B;
+    color: #FFFFFF;
+    font-size: 1.2em;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 2px 2px 5px #8B5E3C;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+/*grid styles*/
+#grid-container {
+    display:grid;
+    grid-template-areas: "item1 item2 item3"
+                         "item4 item5 blank";
+    gap:10px;
+    padding-bottom:10px;
+}
+#gridItem1 {
+    grid-area: item1;
+}
+#gridItem2 {
+    grid-area: item2;
+}
+#gridItem3 {
+    grid-area:item3;
+}
+#gridItem4 {
+    grid-area:item4;
+    grid-column: span 1;
+}
+#gridItem5 {
+    grid-area: item5;
+    grid-column: span 2;
+}
+#gridSection {
+    border:10px solid #C19A6B;
+    padding:10px;
+}
+#gridSection > h2 {
+    text-align: center;
+}
+.grid-item > a {
+    border-bottom: 3px solid #C19A6B;
+    border-radius: 100px;
+    padding:10px;
+    
+}
+/*flex container styles*/
+#flex-container3 {
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+#flex-container4 > p {
+    padding-left: 40px;
+    padding-top:20px;
+}
+#flex-container4 > img {
+    width:30%;
+    border-radius: 100px;
+}
+#flex-container4 {
+    display: flex;
+}
+#flex-container5{
+    display: flex;
+    height:80%;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+#flex-container7{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right:50px;
+}
+/*footer and footer images styles*/
+.FacebookLogo {
+    border-radius: 100px;
+    width:150px;
+}
+.instagramLogo {
+    width: 150px;
+    border-radius: 100px;
+}
+.tikTokLogo {
+    width:150px;
+    border-radius: 100px;
+}
+footer {
+    text-align: center;
+}
+footer > nav {
+    margin-bottom: 34px;
+}
+footer > h3 {
+    margin-bottom: 40px;
+}
+/*typography styles*/
+p, ul, li {
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #333333;
+    line-height: 1.6em;
+}
+    
+h1, h2, h3, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*hover and focus styles*/
+a:hover {
+    color:white;
+    text-shadow: 2px 2px 5px #8B5E3C;
+}
+a:focus {
+    outline: 2px solid #4C9F70;
+    outline-offset: 3px;
+}
+#banner-button:hover {
+    background-color: #D3A87C;
+    box-shadow: 4px 4px 10px #8B5E3C;
+}
+/*mission section styles*/
+#missionSection {
+    padding:50px;
+}
+#missionSection > h2 {
+    padding-left:50px;
+    font-size: 2em;
+}
+@media screen and (max-width:1045px){
+    header > nav {
+        padding-left: 45px;
+    }
+}
+@media screen and (max-width:800px){
+    #grid-container{ 
+        grid-template-areas: "item1 item2"
+                             "item3 item4"
+                             "item5 blank";
+    }
+    .FacebookLogo {
+       width:100px;
+    }
+    .instagramLogo {
+        width: 100px;
+    }
+    .tikTokLogo {
+        width:100px;
+    }
+    header > nav {
+        padding-left:65px;
+    }
+    #flex-container4 > img {
+        width:400px;
+        height:400px;
+    }
+    #flex-container4 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #flex-container7 {
+        justify-content: center;
+        align-items: center;
+        padding-right: 0;
+    }
+    #flex-container7 > h3 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    #grid-container{ 
+        grid-template-areas: "item1"
+                             "item2"
+                             "item3"
+                             "item4"
+                             "item5";
+    }
+    #flex-container4 > img {
+        width:200px;
+        height:200px;
+        margin-top: 50px;
+    }
+    #flex-container3 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #footerNav{
+        flex-direction: column;
+        padding:0;
+    }
+    #banner1 {
+        padding:100px;
+    }
+    header > nav {
+        padding-left: 100px;
+    }
+    #companyLogo{
+        width:140px;
+    }
+    header {
+        padding:4px;
+    }
+    #headerNav {
+        flex-direction: column;
+        margin: 0;
+    }
+    #headerNav{
+       justify-content: left;
+       align-items: flex-end;
+       padding-right:30px;
+    }
+    #flex-banner > p {
+        text-align: center;
+    }
+    #flex-banner {
+        margin-bottom: 800px;
+    }
+}

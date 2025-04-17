@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Content-Secuirty-Policy" content="style-src 'self'">
+    <link rel="stylesheet" href="css/adoptionPage.css">
+    <title>Adoption Page</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo2.jpg" id="companyLogo" alt="company logo">
+        <nav>
+            <ul id="headerNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#adopt">Adopt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>rescues currently available for adoption!</h1>
+    <div id="flex-container5">
+        <div class="flexItem">
+            <img src="images/lowLow1.jpg" alt="Pitbull terrier" id="Lowpic">
+            <ul>
+                <li>Name: Low Low</li>
+                <li>Age: 8 years</li>
+                <li>Breed: Pitbull terrier</li>
+                <li>Dog friendly: yes</li>
+            </ul>
+        </div>
+        <div class="flexItem">
+            <img src="images/marty1.jpg" alt="Jack Russel Mix dog">
+            <ul>
+                <li>Name: Marty</li>
+                <li>Age: 12 years</li>
+                <li>Breed: Jack Russel Mix</li>
+                <li>Dog friendly: no</li>
+            </ul>
+        </div>
+        <div class="flexItem">
+            <img src="images/venus.jpg" alt="Labrador Mix">
+            <ul>
+                <li>Name: Venus</li>
+                <li>Age: 11 months</li>
+                <li>Breed: Labrador Mix</li>
+                <li>Dog friendly:yes</li>
+            </ul>
+        </div>
+        <div class="flexItem">
+            <img src="images/whisper.jpg" alt="German Sheperd">
+            <ul>
+                <li>Name:Whisper</li>
+                <li>Age: 5 years</li>
+                <li>Breed: German Sheperd</li>
+                <li>Dog friendly: yes</li>
+            </ul>
+        </div>
+    </div>
+    <h2>Fill out form to be considered for adoption</h2>
+    <form id="myForm">
+        <div class="formflexItem">
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" name="fName" placeholder="john/jane" required>
+        </div>
+        <div class="formflexItem">
+            <label for="lName">Last Name:</label>
+            <input type="text" id="lName" name="lName" placeholder="doe" required>
+        </div>
+        <div class="formflexItem" id="formItem2">
+            <label for="nameOfDog">Name of Dog you would Like to adopt:</label>
+            <select name="nameOfDog" id="nameOfDog">
+                <option value="whisper">Whisper</option>
+                <option value="marty">Marty</option>
+                <option value="lowLow">Low Low</option>
+                <option value="venus">Venus</option>
+            </select>
+        </div>
+        <div class="formflexItem" id="formItem4">
+            <label for="userEmail">Email:</label>
+            <input type="email" id="userEmail" name="userEmail" placeholder="example@example.com" required>
+            <div id="emailFeedback"></div>
+        </div>
+        <div class="formflexItem" id="formItem5">
+            <label for="userNum">Phone Number:</label>
+            <input type="tel" id="userNum" name="userNum" placeholder="999-999-9999" required>
+            <div id="userNumFeedback"></div>
+        </div>
+        <input type="hidden" name="csrfToken" id="csrfToken">
+        <button type="submit" value="submit" id="submitBtn">Submit</button>
+    </form>
+    <hr>
+    <footer>
+        <nav>
+            <ul id="footerNav">
+                <li><a href="adoptionPage.html">Available Pups</a></li>
+                <li><a href="#help">Help</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact/FAQ</a></li>
+            </ul>
+        </nav>
+        <h3>Follow Us</h3>
+        <div id="flex-container3">
+            <a href="#facebook" class="FacebookLogo"><img src="images/Facebook_logo.png" alt="Facebook logo" class="FacebookLogo"></a>
+            <a href="#instagram" class="instagramLogo"><img src="images/instagram-logo.jpg" alt="instagram logo" class="instagramLogo"></a>
+            <a href="#tikTok" class="tikTokLogo"><img src="images/tik-tok-logo.png" alt="tik-tok logo" class="tikTokLogo"></a>
+        </div>
+        <p> Paws and Forever Adoption Center is a 501(c)(3) nonprofit organization in Oklahoma.</p>
+        <p>Copyright &copy 2017–2020 Paws and Forever Adoption Center. All Rights Reserved.</p>
+    </footer>
+    <script src="javascript/adoptionPage.js"></script>
+</body>
+</html>
